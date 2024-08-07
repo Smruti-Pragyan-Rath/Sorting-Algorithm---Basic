@@ -1,0 +1,28 @@
+//Bubble Sort Algorithm
+
+//Intuition- We do a certain number of passes; in every pass, we compare adjacent elements and swap them if they are not in order.
+
+//Code-
+public class
+{
+static void bubblesort(int[] arr)
+{
+int n=arr.length;
+for(int i=0; i<n-1; i++)
+{
+for(int j=i; j<n-i-1; j++)
+{
+if(arr[j]>arr[j+1]0
+{
+int temp=arr[j];
+arr[j]=arr[j+1];
+arr[j+1]=temp;
+}
+}
+}
+}
+public static void main(String [] args)
+{
+
+}
+}
